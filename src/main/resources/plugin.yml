@@ -1,0 +1,14 @@
+name: MyPid
+version: 1.0-SNAPSHOT
+main: cn.qfys521.MyPid
+authors: [ qfys521 ]
+#api-version: 1.4.9
+commands:
+  getPid:
+    description: Just is a get Pid plugin
+    usage: /getPid
+    permission: getPid
+    permission-message: you don't have permission to do this.please check your permissions.
+permissions:
+  getpid:
+    default: op
